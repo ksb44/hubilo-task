@@ -283,7 +283,7 @@ export default function AddSpeakerSidebar() {
                           className="text-orange-400"
                           onClick={() => handleEditClick(speaker)}
                         >
-                          <LiaEdit />
+                          <LiaEdit  />
                           <div className="text-sm font-medium">
                             Edit Speaker
                           </div>
