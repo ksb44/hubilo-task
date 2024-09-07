@@ -288,7 +288,8 @@ export default function AddSpeakerSidebar() {
                             Edit Speaker
                           </div>
                         </IconButton>
-                        <Checkbox
+                      </Box>
+                      <Checkbox
                         className="absolute top-2 right-2"
                         checked={selectedSpeakers.includes(speaker.id)}
                         onChange={() => handleSpeakerSelect(speaker.id)}
@@ -298,8 +299,6 @@ export default function AddSpeakerSidebar() {
                           },
                         }}
                       />
-                      </Box>
-                      
                     </Card>
                   ))
                 )}
