@@ -288,8 +288,7 @@ export default function AddSpeakerSidebar() {
                             Edit Speaker
                           </div>
                         </IconButton>
-                      </Box>
-                      <Checkbox
+                        <Checkbox
                         className="absolute top-2 right-2"
                         checked={selectedSpeakers.includes(speaker.id)}
                         onChange={() => handleSpeakerSelect(speaker.id)}
@@ -299,6 +298,8 @@ export default function AddSpeakerSidebar() {
                           },
                         }}
                       />
+                      </Box>
+                      
                     </Card>
                   ))
                 )}
@@ -313,15 +314,15 @@ export default function AddSpeakerSidebar() {
                   >
                     Add
                   </Button>
-                  <Button
-                    className="bg-orange-500 text-white mx-4"
+                  <button
+                    className="bg-orange-500 text-white mx-4 p-2 rounded-lg"
                     onClick={toggleDrawer}
                   >
                     Cancel
-                  </Button>
+                  </button>
                 </div>
-                <Button
-                  style={{ textTransform: "none" }}
+                <button
+                 
                   className="mx-4 text-orange-500"
                   onClick={() => {
                     setIsCreating(true);
@@ -329,7 +330,7 @@ export default function AddSpeakerSidebar() {
                   }}
                 >
                   Create a Speaker
-                </Button>
+                </button>
               </div>
             </>
           )}
