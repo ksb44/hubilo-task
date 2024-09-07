@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Follow the steps below to get the project running on your local machine.
+
+### 1. Clone the Repository
+
+If the project is hosted in a Git repository, clone it using the following command:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+
 First, run the development server:
 
 ```bash
